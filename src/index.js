@@ -5,7 +5,7 @@ const cors = require("cors")
 const morgan = require("morgan")
 const helmet = require("helmet")
 const compression = require("compression")
-const routerNavigation = require("./src/routes")
+const routerNavigation = require("./routes")
 
 const app = express()
 const port = PORT || 5001
